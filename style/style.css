@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #F3F5FC;;   
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+
+.logo {
+    text-align: center;
+    width: 120px;
+    height: 48px;
+    margin: 40px;   
+}
+
+.imgLogo {
+    width: 31.09px;
+    height: 48px;
+    margin: auto;
+}
+
+#inText {
+    margin-top: 168px;
+    margin-left: 240px;
+}
+
+
+.textIn {
+    width: 680px;
+    height: 288px;
+    overflow: hidden;
+    resize: none;
+    font-size: 32px;
+    border: none;
+    background: #F3F5FC;
+    color: #0A3871;  
+    white-space: pre-wrap;
+}
+
+
+::placeholder {
+    color: #0A3871;
+}
+
+#lateral {
+    text-align: center;
+    width: 400px;
+    height: 850px;
+    margin: 40px;
+    border-radius: 32px;
+    background-color: #FFFF;
+}
+
+.imgLateral {
+    margin-top: 243px;
+    width: 336px;
+    height: 304px;
+}
+
+#lateralText h1{
+    padding: 20px;
+    margin: auto;
+    width: 336px;
+    height: 58px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #343A40; 
+}
+
+#lateralText p{
+
+    margin: auto;
+    width: 336px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #343A40;  
+}
+
+
+label {
+    font-size: 12px;
+    color: #0A3871;
+    height: 18px;
+    opacity: 80%;
+}
+
+
+.classButton button{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    margin-right: 8px;
+    margin-top: 10px;  
+    border: 2px solid #0A3871;
+    font-size: 16px;
+}
+
+.classButton button:hover {
+
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 80%;
+}
+
+.btn1 {
+    background: #0A3871 ;
+    color: #FFFF;
+}
+
+.btn2 {
+  background: #D8DFE8;
+  color: #0A3871;
+
+}
+
+.btn3 {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 15px;
+    margin-right: 8px;
+    margin-top: 10px;  
+    border: none;
+    font-size: 16px;
+    background: #D8DFE8;
+    color: #0A3871;
+  
+  }
+
+
+.btn3:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background: #cacfd8;
+    transition: 0.4s;
+
+}
+
+.x{
+    
+    font-size: 35px;
+    color: #0A3871;
+        
+}

@@ -1,0 +1,84 @@
+@media (max-width: 450px) {
+
+   
+  #container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      width: 414px;
+      
+  }
+
+  textarea::placeholder {
+    text-align: center;
+    font-size: smaller;
+  }
+
+  #inText .logo {
+      text-align: center;
+      width: 10px;
+      height: 20px;
+  }
+
+ .container .imgLogo {
+      width: 10px;
+      height: 28px;
+      
+  }
+  
+  #inText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 400px;
+      margin: 0 auto;
+  }
+  
+  #inText .textIn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 400px;
+      height: 288px;
+      margin: auto;
+      border: none;
+      background: #F3F5FC;
+      color: #0A3871;  
+     
+  }
+
+  #lateral {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 850px;
+      margin: auto;
+      border-radius: 32px;
+      background-color: #FFFF;
+  }
+
+  .imgLateral {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin-top: 243px;
+      width: 336px;
+      height: 304px;
+  }
+
+  .classButton button {
+    width: 228px;
+    height: 57px;
+  }
+
+  #lateral {
+    margin-top: 10px;
+    height: 700px;
+    align-items: center;
+  }
+ 
+}
